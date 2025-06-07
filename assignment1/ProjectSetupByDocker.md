@@ -24,10 +24,10 @@ It takes some time to build and install dependencies and linux kernel, so have s
 docker-compose up
 ```
 ### 6. To access the container terminal or to execute any command inside the terminal
-'''bash
+'''powershell
 docker exec -it assignment1 bash
 '''
-or if you don't have bash installed inside the container then use sh.
-'''bash
+### or if you don't have bash installed inside the container then use sh.
+'''powershell
 docker exec -it assignment1 sh
 '''
