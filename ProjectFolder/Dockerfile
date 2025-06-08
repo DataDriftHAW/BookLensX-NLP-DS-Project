@@ -2,7 +2,7 @@
 FROM python:3.10-slim
 
 # Set working directory in the container
-WORKDIR /assignment1
+WORKDIR /ProjectFolder
 
 # Avoid interactive prompts during installs
 ENV DEBIAN_FRONTEND=noninteractive
