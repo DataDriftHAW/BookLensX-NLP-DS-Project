@@ -172,3 +172,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+ProjectFolder/archive/raw/goodreads_books.json

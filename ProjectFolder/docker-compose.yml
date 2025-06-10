@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  nlp_ds_project:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nlp_ds_project
+    volumes:
+      - .:/ProjectFolder
+    working_dir: /ProjectFolder
+    ports:
+      - "8888:8888"
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
