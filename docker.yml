@@ -1,0 +1,15 @@
+
+version: '3.9'
+
+services:
+  assignment1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: assignment1
+    volumes:
+      - .:/
+    working_dir: /
+    ports:
+      - "8888:8888"
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root

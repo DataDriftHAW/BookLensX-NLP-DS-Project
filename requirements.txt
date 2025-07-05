@@ -1,0 +1,7 @@
+spacy==3.8.2
+scikit-learn
+matplotlib
+seaborn
+transformers
+datasets
+jupyter
